@@ -777,3 +777,20 @@ button:focus {
     font-size: 14px;
   }
 }
+@media screen and (max-width: 575px) {
+  .banner-hero {
+    height: 100vh;
+    /* Use vh as a fallback for browsers that do not support Custom Properties */
+    height: calc(var(--vh, 1vh) * 100);
+  }
+  .banner-hero .container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  :root {
+    --vh: 1vh;
+  }
+}
