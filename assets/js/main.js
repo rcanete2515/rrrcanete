@@ -93,7 +93,7 @@ $('nav a[href^="#"]:not([data-toggle]):not([data-slide])').click(function () {
           var containerBottom = containerOffset + containerHeight;
           var scrollPosition = $(document).scrollTop();
   
-          if(scrollPosition < containerBottom - 30 && scrollPosition >= containerOffset - 30){
+          if(scrollPosition < containerBottom - 50 && scrollPosition >= containerOffset - 50){
               $(this).addClass('active');
           } else{
               $(this).removeClass('active');

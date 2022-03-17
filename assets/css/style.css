@@ -335,6 +335,9 @@ nav .logo-custom-text {
   left: 0;
   bottom: 0;
 }
+.about-me .float-img img {
+  opacity: 0.5;
+}
 .about-me .box-left p {
   text-align: justify;
 }
@@ -453,6 +456,9 @@ nav .logo-custom-text {
   right: 0;
   top: 0;
 }
+.my-portfolio .float-img img {
+  opacity: 0.7;
+}
 .my-portfolio .portfolio-boxes .portfolio-box {
   text-align: center;
   background-color: #fff;
@@ -476,7 +482,7 @@ nav .logo-custom-text {
   margin-top: 10px;
 }
 .my-portfolio .portfolio-boxes .portfolio-box .name h6 {
-  font-size: 20px;
+  font-size: 16px;
 }
 .my-portfolio .portfolio-boxes .portfolio-box .overlay-box {
   position: absolute;
@@ -718,7 +724,7 @@ button:focus {
   }
 
   .my-portfolio .portfolio-boxes .portfolio-box .name h6 {
-    font-size: 16px;
+    font-size: 13px;
   }
   .my-portfolio .portfolio-boxes .portfolio-box .overlay-box span {
     font-size: 14px;
